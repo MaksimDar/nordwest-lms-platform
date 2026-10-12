@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790340584534,
+      "tag": "0000_nordwest_lms_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790340982617,
+      "tag": "0001_course_materials_storage_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790359385995,
+      "tag": "0002_catalog_registration_ai",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790359549871,
+      "tag": "0003_seed_staging",
+      "breakpoints": true
+    }
+  ]
+}
