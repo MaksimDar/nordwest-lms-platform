@@ -31,17 +31,15 @@ Open http://localhost:3000. Stop with Ctrl+C, or `docker compose down`.
 
    | Variable | Value | Notes |
    |---|---|---|
-   | `SUPABASE_URL` | `https://<project-ref>.supabase.co` | no `/rest/v1/` at the end |
-   | `VITE_SUPABASE_URL` | same as above | |
-   | `SUPABASE_PUBLISHABLE_KEY` | `sb_publishable_...` | do NOT mark as secret |
-   | `VITE_SUPABASE_PUBLISHABLE_KEY` | same as above | do NOT mark as secret |
+   | `SUPABASE_URL` | `https://jhlvsufwoqjzhssqzemf.supabase.co` | no `/rest/v1/` at the end |
+   | `VITE_SUPABASE_URL` | `https://jhlvsufwoqjzhssqzemf.supabase.co` | |
+   | `SUPABASE_PUBLISHABLE_KEY` | `sb_publishable_Rs8lWz_5x5rUoY-mKCAY7Q_7S88VpYA` | do NOT mark as secret |
+   | `VITE_SUPABASE_PUBLISHABLE_KEY` | `sb_publishable_Rs8lWz_5x5rUoY-mKCAY7Q_7S88VpYA` | do NOT mark as secret |
    | `AI_API_KEY` | your provider key | mark as secret |
    | `AI_BASE_URL` | e.g. `https://api.groq.com/openai/v1` | |
    | `AI_MODEL` | e.g. `openai/gpt-oss-120b` | |
    | `AI_PROVIDER` | `compatible` | |
-   | `AI_REASONING` | `low` | optional, reasoning models only |
 
-   Do not set `AI_DEBUG` in production.
 5. Deploy. After any change to environment variables, trigger a new deploy.
 6. In Supabase: Authentication > URL Configuration > set Site URL to your Netlify address.
 7. Log in as the lecturer and as a student, open the chat assistant, and check an AI summary.
