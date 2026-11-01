@@ -139,6 +139,4 @@ end to end on the deployed application with the two demo users.
 - The demo password is shared and documented in this repository. Use demo accounts only, never
   real data, and do not reuse the password anywhere else.
 
-## Acknowledgements
 
-Developed with AI-assisted tooling during development. <!-- Replace with the exact disclosure your course requires. -->
